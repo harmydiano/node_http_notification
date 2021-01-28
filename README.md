@@ -18,13 +18,13 @@ A simple API to subscribe and publish datas
 ### Routes
 - Subscribe `http://localhost:3010/api/v1/subscribe/topic1`
 
-## Payload
+### Payload
     `{
         url: http://localhost:3010/api/v1/test1
     }`
 -  Publish `http://localhost:3010/api/v1/publish/topic1`
 
-## Payload
+### Payload
     `{
     "data":{
         "message": "hello boy"
